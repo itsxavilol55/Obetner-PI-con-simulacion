@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>metodos simulacion</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="metodo1.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<h1>Simulacion</h1>
+	<h2>Metodo de la aguja de Buffon</h2>
+	<h3>Cuantas agujas se quieren generar(maximo 1,000,000)</h3>
+	<input type="number" id="inputNum">
+	<button onclick="generaAgujas()">Inciar</button>
+	<br>
+	<div>
+		<canvas id="myCanvas" width="600" height="600"></canvas>
+	</div>
+	<h1 id="total"></h1>
+	<h1 id="contador"></h1>
+	<h2 id="valorPi"></h2>
+	<h2 id="diferencia"></h2>
+	<div style="flex-direction: column; width: 600px; height: 600px;">
+		<h1>Grafica X Y</h1>
+		<canvas id="myCanvasGrafica" width="600" height="600"></canvas>
+	</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+div
+{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+canvas
+{
+	border: 4px solid #8400FF;
+	box-shadow: 0 0 20px #000;
+}
